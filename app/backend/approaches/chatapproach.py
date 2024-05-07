@@ -21,10 +21,10 @@ class ChatApproach(Approach, ABC):
     ASSISTANT = "assistant"
 
     query_prompt_few_shots = [
-        {"role": USER, "content": "How did crypto do last year?"},
-        {"role": ASSISTANT, "content": "Summarize Cryptocurrency Market Dynamics from last year"},
-        {"role": USER, "content": "What are my health plans?"},
-        {"role": ASSISTANT, "content": "Show available health plans"},
+        {"role": USER, "content": "In which documents is information about Ciclopriox?"},
+        {"role": ASSISTANT, "content": "Show the source file containing this chemical compound"},
+        {"role": USER, "content": "List the names of drugs (trade name) that are available for bloob and bloob forming organs"},
+        {"role": ASSISTANT, "content": "Show available trade names"},
     ]
     NO_RESPONSE = "0"
 

@@ -205,12 +205,12 @@ export function Component(): JSX.Element {
                 </div>
                 <h1 className={styles.askTitle}>Ask your data</h1>
                 <div className={styles.askQuestionInput}>
-                    <QuestionInput
+                    {/* <QuestionInput
                         placeholder="Example: Does my plan cover annual eye exams?"
                         disabled={isLoading}
                         initQuestion={question}
                         onSend={question => makeApiRequest(question)}
-                    />
+                    /> */}
                 </div>
             </div>
             <div className={styles.askBottomSection}>
